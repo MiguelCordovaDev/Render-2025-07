@@ -17,7 +17,7 @@ db.init = async () => {
       await new db.role({ name: "moderator" }).save();
       await new db.role({ name: "admin" }).save();
 
-      console.log("✔ Roles creados correctamente");
+      console.log("Roles creados correctamente");
     }
   } catch (err) {
     console.log("Error inicializando roles:", err);

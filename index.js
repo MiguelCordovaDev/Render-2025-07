@@ -49,7 +49,7 @@ db.mongoose
   });
 
 app.get("/", (req, res) => {
-  res.send("API Hackathon funcionando");
+  res.send("Hola Alexander, desde Render!");
 });
 
 app.listen(PORT, () => {
